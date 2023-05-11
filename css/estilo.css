@@ -1,0 +1,244 @@
+/*Body*/
+body{
+    background-image:url("../imagenes/fondo.png");
+/*para que no se repita la foto
+background-repeat:no-repeat;*/
+
+/*para ajustar el tamaño de la imagen
+background-size: 100% 100%;*/
+
+/*para poner un color de fondo
+background-color:#EBEDEF;*/
+
+font-family:"Lucida console", "courier new", monospace;
+font-size:40px;
+color:#EA8ADA;
+}
+
+hr{
+border: 5px solid #B41199;
+border-radius: 5px;
+border-width: 80%;
+
+ }
+ 
+ p{
+ text-align:justify;
+ font-size: 20pt;
+ color: black;
+ 
+
+ }
+ 
+  table,tr{
+border:3px solid;
+border-color: #CF97D6;
+text-align:center;
+background-color: #A64EB0;
+ }
+ 
+ th,tr{
+background-color: white;
+
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ ul{
+list-style-type: circle;
+list-style-position: inside;
+ }
+ 
+ ol{
+/*Algunos de los valores de list-style-typw son:
+lower-alpha;lower-roman;upper-alpha;upper-alpha;upper-roman;
+a,b,c.d.f  i,ii,iii,iv  A,B,C,D,F  I,II,III,IV*/
+list-style-type:upper-roman;
+list-style-position:inside;
+ }
+ 
+.pie{
+font-family: "bondoni","Aial", "Lucida console";
+font-size:12px;
+color:black;
+text-align:center;
+font-weight:bold;
+}
+
+.table{
+font-family:"times niw roman","Arial","Lucida console";
+font-size:20px;
+color:black;
+}
+
+.tittle{
+font-family:"times niw roman" , "Arial", "monospace";
+font-size:30px;
+font-weight:bold;
+color:black;
+text-align:center;
+}
+
+.img-marque{
+width:450px;
+height:100px;
+}
+
+.botones{
+width:100px;
+height:100px;
+border-radius:20%;
+}
+
+.img-table{
+width:100px;
+height:100px;
+}
+
+.otras-img{
+width:600px;
+height:400;
+border:double #f7C457;
+border-radius:5%;
+}
+.Botones{
+	width:180px;
+	height:180px;
+	border-radius:50%;
+}
+
+@font-face{
+font-family: sweet;
+src: url("../fuentes/Sweet Kitty.otf");
+}
+
+/*
+.fuentegoogle
+    font-familia:"Delicius Handrawn", cursive;
+se pone el link url en la pagina que queremos que lleve esa letra,se pone junto a los otros "link real"
+ }
+ 
+ */
+ 
+ /*Uso de Divs*/
+ /*Div o caja en el encabezado*/
+ *{
+margin:0px;
+padding:0px;
+ }
+ 
+ div#top{
+width:100%;
+height:200px;
+background-color:#EBDEF0;
+ }
+ 
+ div#piep{
+margin-top:10px;
+width:100%;
+height:200px;
+background-color:#D2B4DE
+ }
+ div#encabezado{
+	 width:100%;
+	 height:200px;
+	 background-image:linear-gradient(white);
+ }
+
+.caja{
+	height:300px;
+	width:200px;
+	background:rosa;
+	border:1px;
+	margin:5px;
+	color:black;
+	text-align:center;
+	display:inlie-block;
+}
+
+.caja:hover{
+	box-shadow:0 0 10px lila;
+	transform:sacle(1.3);
+}
+
+.caja-texto{
+	padding-top:2px;
+	font-size:20px;
+	color:purple;
+	font-weight:blod;
+}
+.texto-adicional{
+padding-top:5px;
+font-size:15px;
+}
+/**/
+.carrousel{
+width:600px;
+margin:1px;
+box-sizing:border-box;
+}
+.contenedor-carrousel{
+width:550px;
+height:550px;
+overflow:hidden;
+box-sizing:border-box;
+}
+/**/
+.itemcarrousel{
+position:relative;
+width:100%;
+height:100%;
+box-sizing:border-box;
+}
+/**/
+.itemcarrouselt{
+width:100%;
+height:100%;
+box-sizing:border-box;
+}
+/**/
+.itemCF{
+position:absolute;
+top:0;
+bottom:0;
+left:0;
+right:0;
+height:100%;
+width:100%;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:20px;
+box-sizing:border-box;
+}
+/**/
+.itemCF>i:hover{
+cursor:pointer;
+}
+/**/
+.conterCC{
+width:100%;
+display:flex;
+justify-content:space-between;
+}
+/**/
+.conterCC>a{
+text-decoration:none;
+font-size:30px;
+color:grey;
+}
+/**/
+.itemCF>a>i{
+color:white;
+}
+
+.imgproductos{
+	height:450px;
+    width:450px;
+}
+
+
+
